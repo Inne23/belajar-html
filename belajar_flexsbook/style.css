@@ -1,0 +1,54 @@
+.block-element{
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline-element{
+    display: inline;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #f1c40f;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.flex-item{
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex: 1;
+}
+a:hover{
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+li:nth-child(odd ){
+    background-color: #3498db;
+    color: #21da5e;
+    padding: 5px;
+}
+
+.special-text::before{
+    content: "Start: ";
+    font-weight: bold;
+}
+
+.special-text::after{
+    content: " :End ";
+    font-weight: bold;
+}
